@@ -6,3 +6,4 @@ taichi==1.7.1
 torch==2.4.1
 tqdm==4.66.5
 transformers==4.44.0
+accelerate==1.0.1
