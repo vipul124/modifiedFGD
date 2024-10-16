@@ -3,6 +3,7 @@ import torch
 import numpy as np
 import taichi as ti
 
+@ti.data_oriented
 class bilateralMatrix():
     def __init__(self):
         ti.init(arch=ti.gpu, default_fp=ti.f64)
