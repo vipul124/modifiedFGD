@@ -7,4 +7,3 @@ torch==2.4.1
 tqdm==4.66.5
 transformers==4.44.2
 accelerate==0.34.2
-xformers==0.0.20
