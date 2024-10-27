@@ -8,4 +8,4 @@
 
 ## Reproducing Results
 - You can run the code present in the [codeResults.ipynb](codeResults.ipynb) file in order to reproduce the results provided in implementation documentation
-- We ran this notebook on `Google Colab` using the `T4 GPU` server in order to generate these results - you can also do the same in order to reproduce the results [ [link here](https://colab.research.google.com/drive/1Np_Fl8MsX6QP8AeUfiFz5sZLRDy60_Nr?usp=sharing) ]
+- We ran this notebook on `Google Colab` using the `T4 GPU` server in order to generate these results - you can also do the same in order to reproduce the results [ [link here](https://colab.research.google.com/drive/1vo-zewdY6dtZfrOftmI5dYBiSuyv1PQw?usp=sharing) ]
