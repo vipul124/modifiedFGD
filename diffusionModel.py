@@ -216,10 +216,8 @@ class fgdModel(diffusionModel):
             simi_score = ssim(st_np, guide_structure_np, data_range=st_np.max() - st_np.min(), channel_axis=0)
             if simi_score < similarity_threshold:
                 detail = min(detail_max, detail * 1.1)
-                print("increased", simi_score)
             else: 
                 detail = max(detail_min, detail * 0.9)
-                print("decreased", simi_score)
             filter.set_ST(detail=detail, t_end=t_end, norm_steps=norm_steps)
             
             latents = xt_filtered.detach()
