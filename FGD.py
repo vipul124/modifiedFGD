@@ -74,12 +74,12 @@ class fgdFilter():
         self.init_bilateral_matrix_4d=None
         self.set_guide_image(guide_image)
 
-    def set_ST(self, detail=1.6, recompute_matrix=True, sigmas=[3,3,0.3]):
+    def set_ST(self, detail=1.6, recompute_matrix=True, sigmas=[3,3,0.3], t_end=15, norm_steps=50):
         if recompute_matrix:
             self.set_bilateral_matrix(sigmas)
         self.detail = detail
-        self.t_end = 15
-        self.norm_steps = 50
+        self.t_end = t_end
+        self.norm_steps = norm_steps
 
     def reset(self):
         self.init_guide_latent = self.guide_latent
